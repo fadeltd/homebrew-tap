@@ -8,25 +8,25 @@ cask "pdfunlock" do
     end
   end
 
-  version "1.1.1"
+  version "1.2.0"
 
   on_macos do
     on_arm do
-      sha256 "7eb5a0772f928d67021283113cae9fc8197e7266b8e718ca230bcb2d1c4130e3"
+      sha256 "855b9f03d39ec44ea9c337f1db20878601449528dc763a6959a97999a4a934b6"
       url "https://github.com/fadeltd/pdfunlock/releases/download/v#{version}/pdfunlock_Darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "6b00ee5e2e0419488317149ce67db451f13019b66274b12cb644ec525775ca50"
+      sha256 "3a27a28b44f975f2400327d1bc3aab930f0a4b83132da5a35dba6c33a25b63f8"
       url "https://github.com/fadeltd/pdfunlock/releases/download/v#{version}/pdfunlock_Darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "356d3cfaaf82f6c5b92f04bc5267199c5532ad02a589b938f13d3073b2233df6"
+      sha256 "5c845630b23d485f2626b3995f4556b24c27bfc5741ff91a52bfee8b85156ae5"
       url "https://github.com/fadeltd/pdfunlock/releases/download/v#{version}/pdfunlock_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "8282ed0bc3fae55d3002bb4e5099fb127c4c7dce19fe60bcfd4e205076285bd3"
+      sha256 "ff9bebed654ed43c610e98eba3fdb0f82fb4175198a42d1e82e4fcd6a803596d"
       url "https://github.com/fadeltd/pdfunlock/releases/download/v#{version}/pdfunlock_Linux_x86_64.tar.gz"
     end
   end
