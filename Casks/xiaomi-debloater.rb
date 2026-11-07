@@ -1,6 +1,6 @@
 cask "xiaomi-debloater" do
-  version "1.1.0"
-  sha256 "5564efff902a0efa56953134c95cd0a8e96f626efefdeeb3c3cb8c6a048173bd"
+  version "1.1.1"
+  sha256 "f327a61ee44b9f6f921b52d6db9153b3b83aeb1014205a7542528e7ad7dfe188"
 
   url "https://github.com/fadeltd/xiaomi-debloater/releases/download/v#{version}/xiaomi-debloater-v#{version}-macos-universal.zip"
   name "Xiaomi Debloater"
